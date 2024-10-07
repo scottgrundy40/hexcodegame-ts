@@ -1,0 +1,47 @@
+.App {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter {
+  text-align: center;
+}
+
+.box {
+  height: 300px;
+  width: 340px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.btn,
+button + button {
+  margin-left: 10px;
+  margin-bottom: 12%;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.correct {
+  text-align: center;
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: green;
+}
+
+.wrong {
+  text-align: center;
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: red;
+}
+
+.counter {
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
